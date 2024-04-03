@@ -1,6 +1,7 @@
 import React from "react";
 import axios from "axios";
 import Movie from "../components/Movie";
+import Navigation from "../components/Navigation";
 import "./Home.css";
 
 class Home extends React.Component {
@@ -33,6 +34,7 @@ class Home extends React.Component {
           </div>
         ) : (
           <div className="movies">
+            <Navigation />
             {movies.map((movie) => (
               <Movie
                 key={movie.id}
