@@ -2,7 +2,8 @@ import React from "react";
 import "./About.css";
 import Navigation from "../components/Navigation";
 
-function About() {
+function About(props) {
+  console.log(props);
   return (
     <div className="about__container">
       <Navigation />
