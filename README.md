@@ -1,8 +1,12 @@
 # Movie-App Clone Ver.2019
+Study React Ver.2019
+(Using class component to handle state)
 
 ## 🔗 Demo
+https://jonghwa3471.github.io/study-react-movie-app-clone-2019/
 
 ## 🖥 Preview
+<img src="preview-movie-app-2019.png"/>
 
 ## 🔥 Stack
 
