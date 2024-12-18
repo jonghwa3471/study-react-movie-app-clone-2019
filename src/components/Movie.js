@@ -12,7 +12,6 @@ function Movie({ year, title, summary, poster, genres }) {
           to={`${process.env.PUBLIC_URL}/movie-detail`}
           state={{ year, title, summary, poster, genres }}
         >
-          {" "}
           <h3 className="movie__title">{title}</h3>
         </Link>
 
